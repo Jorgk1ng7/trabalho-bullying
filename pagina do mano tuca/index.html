@@ -50,5 +50,30 @@
     </div>
 </nav>
 
+<form action="https://formspree.io/f/mwprdgla" method="POST" style={styles.form as any}>
+    <div style={styles.field as any}>
+      <label htmlFor="nome" style={styles.label as any}>Nome:</label>
+      <input type="text" id="nome" name="usuario_nome" required style={styles.input as any} />
+    </div>
+
+    <div style={styles.field as any}>
+      <label htmlFor="email" style={styles.label as any}>Email:</label>
+      <input type="email" id="email" name="usuario_email" required style={styles.input as any} />
+    </div>
+
+    <div style={styles.field as any}>
+      <label htmlFor="ocorrido" style={styles.label as any}>Relato:</label>
+      <textarea id="ocorrido" name="situacao_usuario" required style={styles.textarea as any} />
+    </div>
+
+    <button type="submit" style={styles.button as any}>
+      Enviar Requisição de Suporte
+    </button>
+  </form>
+
+
+
+
+
 </body>
 </html>
